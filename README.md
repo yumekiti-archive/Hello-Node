@@ -3,7 +3,7 @@
 1. cd コマンドで dockerファイルまで移動してください。
 1. dockerのファイル内で以下コマンドを実行しましょう
 ```
-bash run.sh
+sh run.sh
 ```
 
 > run.shで何をしているか
@@ -19,7 +19,7 @@ docker-compose up -d --build
 1. dockerファイルまで移動。
 1. 以下コマンドを実行。
 ```
-bash delete.sh
+sh delete.sh
 ```
 
 > 実行内容
