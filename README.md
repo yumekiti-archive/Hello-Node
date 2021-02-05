@@ -10,7 +10,7 @@ sh run.sh
 ```
 docker-compose up -d --build
 ```
-このコマンドが実行されているだけなのでこちらを入力しても良い
+このコマンドとnpm系のコマンドが実行されているだけなのでこちらを入力しても良い
 
 - 接続してみる http://localhost:8080/
 
@@ -41,6 +41,9 @@ docker-compose down --rmi all
 - `docker-compose down`
 > コンテナを停止し、 up で作成したコンテナ・ネットワーク・ボリューム・イメージを削除します
 - `--rmi all` docker-compose upで作られた全イメージを削除
+---
+- `docker-compose exec`
+> サービスに対する任意のコマンドを実行する
 ---
 - `docker-compose ps`
 > コンテナのプロセス(状態)を見ることができます
