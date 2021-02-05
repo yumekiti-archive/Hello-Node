@@ -6,11 +6,11 @@
 sh run.sh
 ```
 
-> run.shで何をしているか
+- run.shで何をしているか
+> 以下コマンドと`npm install`が実行されている
 ```
 docker-compose up -d --build
 ```
-このコマンドとnpm系のコマンドが実行されているだけなのでこちらを入力しても良い
 
 - 接続してみる http://localhost:8080/
 
@@ -22,11 +22,10 @@ docker-compose up -d --build
 sh delete.sh
 ```
 
-> 実行内容
+- 実行内容
 ```
 docker-compose down --rmi all
 ```
-これを入力でも可。
 
 # 使えると便利なコマンド集
 ---
