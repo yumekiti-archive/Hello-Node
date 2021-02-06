@@ -52,6 +52,6 @@ docker-compose down --rmi all
 - `docker-compose restart`
 > `docker-compose stop`は、コンテナを停止しますが、削除しません。
 >
-> `docker-compose start`で、再起動できます。
+> `docker-compose start`で、停止させたコンテナを起動できます。
 >
-> コンテナを再起動したい場合は`docker-compose restop`を使いましょう。
+> コンテナを再起動したい場合は`docker-compose restart`を使いましょう。
