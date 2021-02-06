@@ -49,7 +49,7 @@ docker-compose down --rmi all
 ---
 - `docker-compose start`
 - `docker-compose stop`
-- `docker-compose restop`
+- `docker-compose restart`
 > `docker-compose stop`は、コンテナを停止しますが、削除しません。
 >
 > `docker-compose start`で、再起動できます。
