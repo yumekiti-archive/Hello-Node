@@ -14,7 +14,7 @@ docker-compose up -d --build
 
 - 接続してみる http://localhost:8080/
 
-# dockerを消す
+# コンテナを消す
 
 1. dockerファイルまで移動。
 1. 以下コマンドを実行。
